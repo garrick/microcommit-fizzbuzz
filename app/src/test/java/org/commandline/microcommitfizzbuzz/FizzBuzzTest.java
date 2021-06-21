@@ -27,7 +27,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringTwoForIntegerTwo(){
+    public void testConvertReturnsStringFizzForIntegerThree(){
         //Arrange
         FizzBuzz unit = new FizzBuzz();
         //Act
