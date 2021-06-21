@@ -6,5 +6,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testConvertReturnsStringOneForIntegerOne(){
+        //Arrange
+        FizzBuzz unit = new FizzBuzz();
     }
 }
