@@ -33,6 +33,6 @@ public class FizzBuzzTest {
         //Act
         String result = unit.convert(2);
         //Assert
-        assertEquals("2", result);
+        assertEquals("Fizz", result);
     }
 }
