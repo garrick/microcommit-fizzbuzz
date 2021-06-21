@@ -31,10 +31,12 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringFizzForIntegerThree(){
+    public void testConvertReturnsStringFizzForMultiplesOfThree(){
         //Act
-        String result = unit.convert(3);
+        String result = unit.convert(3 * 2);
         //Assert
         assertEquals("Fizz", result);
     }
+
+
 }
