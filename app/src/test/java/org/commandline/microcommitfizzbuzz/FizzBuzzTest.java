@@ -25,4 +25,14 @@ public class FizzBuzzTest {
         //Assert
         assertEquals("2", result);
     }
+
+    @Test
+    public void testConvertReturnsStringTwoForIntegerTwo(){
+        //Arrange
+        FizzBuzz unit = new FizzBuzz();
+        //Act
+        String result = unit.convert(2);
+        //Assert
+        assertEquals("2", result);
+    }
 }
