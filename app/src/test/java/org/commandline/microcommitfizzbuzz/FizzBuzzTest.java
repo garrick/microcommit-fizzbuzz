@@ -31,7 +31,7 @@ public class FizzBuzzTest {
         //Arrange
         FizzBuzz unit = new FizzBuzz();
         //Act
-        String result = unit.convert(2);
+        String result = unit.convert(3);
         //Assert
         assertEquals("Fizz", result);
     }
