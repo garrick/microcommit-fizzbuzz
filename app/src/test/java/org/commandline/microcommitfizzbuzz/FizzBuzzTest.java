@@ -21,7 +21,7 @@ public class FizzBuzzTest {
         //Arrange
         FizzBuzz unit = new FizzBuzz();
         //Act
-        String result = unit.convert(1);
+        String result = unit.convert(2);
         //Assert
         assertEquals("2", result);
     }
