@@ -8,5 +8,7 @@ public class FizzBuzzTest {
     public void testConvertReturnsStringOneForIntegerOne(){
         //Arrange
         FizzBuzz unit = new FizzBuzz();
+        //Act
+        String result = unit.convert(1);
     }
 }
