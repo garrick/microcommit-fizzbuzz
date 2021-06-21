@@ -17,7 +17,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringOneForIntegerOne(){
+    public void testConvertReturnsStringTwoForIntegerTwo(){
         //Arrange
         FizzBuzz unit = new FizzBuzz();
         //Act
