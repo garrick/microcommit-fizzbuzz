@@ -1,10 +1,17 @@
 package org.commandline.microcommitfizzbuzz;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
+
+    private FizzBuzz unit;
+    @BeforeEach
+    public void setUp() {
+        unit = new FizzBuzz();
+    }
 
     @Test
     public void testConvertReturnsStringOneForIntegerOne(){
