@@ -39,7 +39,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringBuzzForFive(){
+    public void testConvertReturnsStringBuzzForMultiplesOfFive(){
         //Act
         String result = unit.convert(5 * 2 );
         //Assert
