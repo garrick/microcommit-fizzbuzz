@@ -15,7 +15,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringOneForIntegerOne(){
+    public void testConvertReturnsStringVersionOfNonFizzBuzzNumber(){
         //Act
         String result = unit.convert(1);
         //Assert
