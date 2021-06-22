@@ -49,7 +49,7 @@ public class FizzBuzzTest {
     @Test
     public void testConvertReturnsStringFizzBuzzForFifteen(){
         //Act
-        String result = unit.convert(15);
+        String result = unit.convert(3 * 5 * 2);
         //Assert
         assertEquals("FizzBuzz", result);
     }
