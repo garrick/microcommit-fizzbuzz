@@ -51,7 +51,7 @@ public class FizzBuzzTest {
         //Act
         String result = unit.convert(5 * 2 );
         //Assert
-        assertEquals("Buzz", result);
+        assertEquals("FizzBuzz", result);
     }
 
 }
