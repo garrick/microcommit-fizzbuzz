@@ -23,14 +23,6 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertReturnsStringTwoForIntegerTwo(){
-        //Act
-        String result = unit.convert(2);
-        //Assert
-        assertEquals("2", result);
-    }
-
-    @Test
     public void testConvertReturnsStringFizzForMultiplesOfThree(){
         //Act
         String result = unit.convert(3 * 2);
