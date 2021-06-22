@@ -38,5 +38,13 @@ public class FizzBuzzTest {
         assertEquals("Fizz", result);
     }
 
+    @Test
+    public void testConvertReturnsStringFizzForMultiplesOfThree(){
+        //Act
+        String result = unit.convert(3 * 2);
+        //Assert
+        assertEquals("Fizz", result);
+    }
+
 
 }
