@@ -43,7 +43,7 @@ public class FizzBuzzTest {
         //Act
         String result = unit.convert(3 * 2);
         //Assert
-        assertEquals("Fizz", result);
+        assertEquals("Buzz", result);
     }
 
 
